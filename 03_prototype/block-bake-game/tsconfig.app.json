@@ -6,7 +6,9 @@
     "moduleResolution": "Bundler",
     "baseUrl": ".",
     "paths": { "@/*": ["src/*"] },
-    "types": ["vite/client", "vue"]
+    "types": ["vite/client", "vue"],
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "noEmit": true
   },
   "include": ["src/**/*", "src/**/*.vue"]
 }
